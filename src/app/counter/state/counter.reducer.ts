@@ -34,7 +34,7 @@ const _counterReducer = createReducer(
      console.log(state.channelName);
        return {
          ...state,
-         channelName: 'Modified Leela Web Dev',
+         channelName: 'Modified RichardMeng Web',
        };
    })
 
