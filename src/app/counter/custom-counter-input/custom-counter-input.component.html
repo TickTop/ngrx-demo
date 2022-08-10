@@ -1,5 +1,9 @@
 <div>
+    <div class="my-3">{{channelName$ | async}}</div>
     <input type="text" placeholder="enter value" [(ngModel)]="value"/>
-    <button class="btn btn-primary" (click)="onAdd()">Add to counter for new branch</button>
+    <button class="btn btn-primary" (click)="onAdd()">Add to counter</button>
 </div>
-<div> new branch change ngrxrm</div>
+<div>
+    <button (click) = "onChangeChannelName()">Change Channel</button>
+</div>
+
